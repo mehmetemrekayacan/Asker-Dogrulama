@@ -1,5 +1,7 @@
 # Asker-Dogrulama
 
+## SQlite veritabanı ve Tkinter kütüphanesi kullanılarak hazırlanmıştır.
+
 **ARAYÜZ**
 
 ![anasayfa](https://user-images.githubusercontent.com/116388836/218534282-9f6970ef-b60f-4583-bfbd-27a90d8a50e4.PNG)
