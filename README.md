@@ -24,3 +24,6 @@
 
 ![Ekran Alıntısı](https://user-images.githubusercontent.com/116388836/218537155-0700c339-03e3-4791-b895-8b4fc3dbc6ca.PNG)
 
+**Sağlık durumu sekmesi**
+
+![Ekran Alıntısı](https://user-images.githubusercontent.com/116388836/218537493-a7875f2d-e581-4d1a-894b-e72703b4ad07.PNG)
