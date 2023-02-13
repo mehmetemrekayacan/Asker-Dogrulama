@@ -12,7 +12,10 @@
 
 ![Adsız](https://user-images.githubusercontent.com/116388836/218535296-a35ab966-d8ed-4daf-8999-5d93f3d8d799.png)
 
+![Ekran Alıntısı](https://user-images.githubusercontent.com/116388836/218536198-21880fd3-6ea8-4abe-82b1-55a72198a83f.PNG)
+
 **Sol üst köşeden Göster sekmesine tıklayarak bilgilerini gör**
 
 ![Adsız](https://user-images.githubusercontent.com/116388836/218535747-ac0f3317-1f0e-4d3a-9258-da2634e96f01.png)
 
+![Ekran Alıntısı](https://user-images.githubusercontent.com/116388836/218536647-35075ad8-0794-49c1-a03b-e3a0b811700a.PNG)
