@@ -119,7 +119,7 @@ Checkbutton(window,text="Sağlık Durumu",command=health,bg="red",activebackgrou
             font="times 12 bold",variable=var3,onvalue=1,offvalue=0).place(x=10,y=150)
 
 
-photo=PhotoImage(file="download.png")
+photo=PhotoImage(file="Türk Bayrağı.png")
 Label(window,image=photo,bg="black").place(x=300,y=10)
 
 
