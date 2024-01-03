@@ -124,9 +124,19 @@ Label(window,image=photo,bg="black").place(x=300,y=10)
 
 
 def clicked_button():
-    Label(window, text="{} {}\ndoğrulamanız başarılı".format(isim.get(), soyad.get()), font="times 15 bold",
-            bg="red", width=20, borderwidth=5, relief=RAISED).place(x=200, y=350)
-Button(window,text="Doğrula",font="times 15 bold",bg="red",activebackground="black",activeforeground="red",command=clicked_button).place(x=75,y=190)
+    cur.execute("SELECT * FROM asker WHERE isim=? AND soyad=?", (isim.get(), soyad.get()))
+    result = cur.fetchone()
+
+    if result:
+        Label(window, text="{} {}\ndoğrulamanız başarılı".format(isim.get(), soyad.get()), font="times 15 bold",
+              bg="red", width=20, borderwidth=5, relief=RAISED).place(x=200, y=350)
+    else:
+        Label(window, text="Doğrulama başarısız. Asker bulunamadı.", font="times 15 bold",
+              bg="red", width=30, borderwidth=5, relief=RAISED).place(x=150, y=350)
+
+Button(window, text="Doğrula", font="times 15 bold", bg="red", activebackground="black", activeforeground="red",
+       command=clicked_button).place(x=75, y=190)
+
 
 
 Label(window,text="1. Gerekli boşlukları doldurun.",bg="red",font="times 12 bold").place(x=10,y=500)
